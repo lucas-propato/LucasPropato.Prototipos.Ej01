@@ -24,7 +24,7 @@ namespace LucasPropato.Prototipos.Ej01
 
             // otras validaciones...
             
-            return null; // null indica todo OK. (para que no se rompa en git y poder seguir trabajando y que compile)
+            return null; // null indica todo OK. (usar para que no se rompa en git y poder seguir trabajando y que compile)
         }
     }
 }

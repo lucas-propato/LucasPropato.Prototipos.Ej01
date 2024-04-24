@@ -13,17 +13,17 @@
 
         internal string Validar()
         {
-            if(Dni < 1_000_000 || Dni > 99_999_999)
+            if (Dni < 1_000_000 || Dni > 99_999_999)
             {
                 return "El DNI debe tener entre 7 y 8 dígitos."; // El mensaje de error es el reverso del if.
             }
 
-            if(string.IsNullOrWhiteSpace(Nombre))
+            if (string.IsNullOrWhiteSpace(Nombre))
             {
                 return "El nombre es requerido.";
             }
 
-            if(Nombre.Length > 50)
+            if (Nombre.Length > 50)
             {
                 return "El nombre debe tener menos de 50 caractéres.";
             }
@@ -42,4 +42,5 @@
 
             return null;
         }
+    }
 }
